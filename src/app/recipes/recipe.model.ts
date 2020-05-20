@@ -1,13 +1,11 @@
-import { ThrowStmt } from '@angular/compiler';
+export class Recipe {
+  public name: string;
+  public desciption: string;
+  public imagePath: string;
 
-export class Recipe{
-    public name: string;
-    public desciption : string;
-    public imagePath: string;
-
-    constructor (name: string, desc:string,imagePath: string){
-        this.name=name;
-        this.desciption=desc;
-        this.imagePath=imagePath;
-    }
+  constructor(name: string, desc: string, imagePath: string) {
+    this.name = name;
+    this.desciption = desc;
+    this.imagePath = imagePath;
+  }
 }
